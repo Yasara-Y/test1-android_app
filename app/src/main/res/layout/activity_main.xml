@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <Button
+            android:id="@+id/denyButton"
+            android:layout_width="159dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="84dp"
+            android:background="#F44336"
+            android:text="DENY"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/authenticateButton" />
+
+    <TextView
+            android:id="@+id/MsgBox"
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="284dp"
+            android:layout_marginBottom="300dp"
+            android:background="@android:color/white"
+            android:backgroundTint="@android:color/transparent"
+            android:ems="10"
+            android:text="@string/messagebox"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="167dp"
+            android:layout_height="126dp"
+            android:layout_marginBottom="180dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@mipmap/ic_launcher_fingerprint" />
+
+    <Button
+            android:id="@+id/authenticateButton"
+            android:layout_width="159dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="84dp"
+            android:background="#4CAF50"
+            android:text="Authenticate"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+            android:id="@+id/RegisterButton"
+            android:layout_width="268dp"
+            android:layout_height="90dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="Register the device"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/MsgBox"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.532" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        xmlns:tools="http://schemas.android.com/tools"-->
+<!--        xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:context=".MainActivity">-->
+
+<!--    <Button-->
+<!--            android:text="login"-->
+<!--            android:layout_width="135dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:id="@+id/loginbutton"-->
+<!--            android:textColorHighlight="@color/colorButtons"-->
+<!--            android:layout_marginBottom="100dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent" android:backgroundTint="@color/colorButtons"-->
+<!--            android:textSize="18sp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"-->
+<!--            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"/>-->
+<!--    <TextView-->
+<!--            android:text="   WSO2 verify"-->
+<!--            android:layout_width="252dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:id="@+id/textView" android:textSize="36sp"-->
+<!--            android:backgroundTint="@color/colorButtons"-->
+<!--            android:textAllCaps="false" android:background="@color/colorButtons"-->
+<!--            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"-->
+<!--            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:textStyle="bold"-->
+<!--            android:textColor="@android:color/background_dark" app:layout_constraintHorizontal_bias="0.496"-->
+<!--            android:layout_marginBottom="300dp" app:layout_constraintBottom_toTopOf="@+id/loginbutton"/>-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
